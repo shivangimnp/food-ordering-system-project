@@ -1,0 +1,61 @@
+ <form action="/register" method="POST">
+     
+        <h1><i>RESERVE A TABLE,<br> ASK FOR TODAY'S SPECIAL OR JUST SEND US MESSAGE</i></h1>
+        <div class="box">
+        <p>First Name: <input type="text" name="fname" placeholder="Enter Your First Name"></p>
+        <p>Last Name: <input type="text" name="lname" placeholder="Enter Your First Name"></p>
+      
+       
+        
+       
+        <p>
+            How Many Peoples: <input type="number" name="no_of_people" min="0" max="10" >
+        
+          Male <input type="number" value="value"  min="0" max="5" id="gender">
+            Female <input type="number"  min="0" max="5" id="gender"> 
+
+        </p>
+        <p>
+            <label for="start">Date:</label>
+        
+
+            <input type="date" name="date" id="start"
+                   value="2021-07-06">
+           
+        </p>
+        <p>Phone: <input type="number" name="phoneNo" id="Phone"></p>
+    
+    
+    <p>Address: <textarea name="address" id="text" cols="35" rows="2"></textarea></p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Pincode: <input type="number"name="pincode" id="pincode"></p>
+    
+
+       
+
+    
+    <p>State/UT:
+        <select name="State" id="text">
+        <option value="">--Select The State--</option>
+        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+        <option value="Delhi">DelhI</option>
+        <option value="Panjab">PANJAB</option>
+        <option value="Rajasthan">Rajasthan</option>
+        </select> </p>
+    </form>
+    <p>Country:
+        <select name="Country" id="text">
+            <option value="">--Select The Country--</option>
+            <option value="India">INDIA</option>
+            <option value="United state">UNITED STATE</option>
+            <option value="Turkey">TURKEY</option>
+            <option value="Rusia">RUSIA</option>
+
+        </select>
+    </p>
+  
+        <p>Send Message: <textarea name="Message" id="text" cols="35" rows="2" placeholder="Message/Special requirements" ></textarea></p>
+        <br><br>
+        <input type="Submit"  value="Submit" id="submit">
+
+      </form>

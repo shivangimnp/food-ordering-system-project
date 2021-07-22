@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+</head>
+<!-- /* <style>
+
+ input,.btn {
+width: 90%;
+padding: 6px;
+background: rgb(40, 62, 87);
+border-radius: 4px;
+margin: 3px ;
+opacity: 0.80;
+display: inline-block;
+font-size: 17px;
+line-height: 15px;
+text-decoration: none; 
+
+}
+.box{
+
+width:20rem;
+padding:1rem;
+margin: 1em;
+background-color: rgb(183, 228, 228);
+border-radius: 1rem;
+box-shadow: 0 .3ren .5rem rgba(0,0,0,2);
+text-align: center;
+border-color: rgb(24, 111, 241);
+
+}
+body{
+background-image: url("Light-Form-Background.jpg");
+}
+h1{
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+color: cornsilk;
+background-color: rgb(40, 62, 87);
+}
+#text{
+background-color:rgb(40, 62, 87);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#submit{
+background-color: rgb(40, 62, 87);
+}
+
+</style> */ -->
+<style>
+    body{
+        background-image: url('./public/images/light\ background\ image.jpg');
+    }
+    form{
+        padding: 30px;
+    }
+</style>
+<body>
+    
+   <center>
+    <h1><i>RESERVE A TABLE,<br> ASK FOR TODAY'S SPECIAL OR JUST SEND US MESSAGE</i></h1>
+
+   <form action="/register" method="POST">
+    <label for="fname">First Name: </label>
+    <input type="text" name="fname" id="fname"><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" name="lname" id="lname"><br>
+    <label for="no_of_people">Number of People: </label>
+    <input type="number" name="no_of_people" id="no_of_people"><br>
+    <label for="phone">Phone Number: </label>
+    <input type="number" name="phone" id="phone"><br>
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email"><br>
+    <label for="address">Address: </label>
+    <textarea name="address" id="address" cols="30" rows="10"></textarea><br>
+    <label for="message">Message: </label>
+    <input type="text" name="message" id=""><br>
+    <input type="submit" id="submit" value="Submit">
+</form>
+</div>
+
+</center>
+
+
+
+</body>
+</html>
